@@ -14,7 +14,7 @@
 
 ## Run All Tests
 
-将当前目录所有 $.in.txt 作为输入传给当前文件，结果输出在 $.out.txt, 并与 $.ans.txt 对比
+将当前目录所有 `#.in.txt` 作为输入传给当前文件，结果输出在 `#.out.txt`, 并与 `#.ans.txt` 对比
 
 # Debug
 
@@ -24,7 +24,16 @@
 
 # 快捷键
 
+## 自定义快捷键
+
 `Ctrl+r t` : Run task "Run All Tests"
+
 `Ctrl+r n` : Run task "Create Test Files"
 
 (但我放在 .vscode/keybindings.json 并不生效，放在系统的 keybindings.json 才生效... 目前没找到原因)
+
+## 内置快捷键
+
+`F5` : Start Debugging/Continue
+
+`F10` : Step Over
