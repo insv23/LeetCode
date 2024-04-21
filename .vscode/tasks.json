@@ -11,6 +11,17 @@
         "reveal": "always",
         "panel": "shared" // 复用终端面板, 免得每次都新开一个
       },
+    },
+    {
+      "label": "Run All Tests",
+      "type": "shell",
+      "command": "python",
+      "args": ["${workspaceFolder}/run_tests.py", "${file}"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
     }
   ]
 }
