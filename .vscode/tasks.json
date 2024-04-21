@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create Test Files",
+      "type": "shell",
+      "command": "${workspaceFolder}/new_test.sh",
+      "args": ["${fileDirname}"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared" // 复用终端面板, 免得每次都新开一个
+      },
+    }
+  ]
+}
