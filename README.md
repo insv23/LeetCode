@@ -11,3 +11,7 @@
 
 ## Run All Tests
 将当前目录所有 $.in.txt 作为输入传给当前文件，结果输出在 $.out.txt, 并与 $.ans.txt 对比
+
+# Debug
+## Debug with #.in.txt
+只需输入一个序号，即可使用对应 #.in.txt 作为输入进行调试
